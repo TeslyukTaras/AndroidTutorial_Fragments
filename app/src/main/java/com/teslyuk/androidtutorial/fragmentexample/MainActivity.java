@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.teslyuk.androidtutorial.fragmentexample.fragments.AboutFragment;
+import com.teslyuk.androidtutorial.fragmentexample.fragments.about.AboutFragment;
 import com.teslyuk.androidtutorial.fragmentexample.fragments.ForgotPasswordFragment;
 import com.teslyuk.androidtutorial.fragmentexample.fragments.signin.SignInFragment;
 import com.teslyuk.androidtutorial.fragmentexample.fragments.SignUpFragment;
