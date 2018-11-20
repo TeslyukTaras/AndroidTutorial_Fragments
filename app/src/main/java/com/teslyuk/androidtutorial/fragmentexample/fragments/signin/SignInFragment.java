@@ -1,4 +1,4 @@
-package com.teslyuk.androidtutorial.fragmentexample.fragments;
+package com.teslyuk.androidtutorial.fragmentexample.fragments.signin;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

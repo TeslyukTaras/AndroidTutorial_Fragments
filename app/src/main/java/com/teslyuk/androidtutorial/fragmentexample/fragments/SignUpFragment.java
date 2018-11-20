@@ -100,6 +100,14 @@ public class SignUpFragment extends Fragment {
             return;
         }
 
+        boolean hasBigCharacter = false;
+        for (int i = 0; i < password.length(); i++) {
+            char c = password.charAt(i);
+            if ('A' <= c && c <= 'Z') {
+                hasBigCharacter = true;
+            }
+        }
+
         ((MainActivity)getActivity()).signUp(login, email, password);
     }
 }
